@@ -1,4 +1,4 @@
-package com.pcdc.easy.model;
+package com.pcdc.easy.model.App;
 
 
 import lombok.AllArgsConstructor;
