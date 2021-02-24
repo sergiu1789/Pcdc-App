@@ -13,6 +13,7 @@ import javax.persistence.Id;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -40,11 +41,11 @@ public class Pcdc {
     @Column
     private String sede;
     @Column
-    private LocalDate dataUltimoAggiornamento;
+    private Date dataUltimoAggiornamento;
     @Column
     private LocalTime oraUltimoAggiornamento;
     @Column
-    private Integer giorniSpeno;
+    private Integer giorniSpento;
     @Column
     private String versionePcdc;
 
