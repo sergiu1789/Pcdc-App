@@ -43,11 +43,105 @@ public class Pcdc {
     @Column
     private Date dataUltimoAggiornamento;
     @Column
-    private LocalTime oraUltimoAggiornamento;
+    private Date oraUltimoAggiornamento;
     @Column
     private Integer giorniSpento;
     @Column
     private String versionePcdc;
 
+    public Long getId() {
+        return id;
+    }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getIpAddress() {
+        return ipAddress;
+    }
+
+    public void setIpAddress(String ipAddress) {
+        this.ipAddress = ipAddress;
+    }
+
+    public String getMacAddress() {
+        return macAddress;
+    }
+
+    public void setMacAddress(String macAddress) {
+        this.macAddress = macAddress;
+    }
+
+    public String getNomePc() {
+        return nomePc;
+    }
+
+    public void setNomePc(String nomePc) {
+        this.nomePc = nomePc;
+    }
+
+    public String getDominio() {
+        return dominio;
+    }
+
+    public void setDominio(String dominio) {
+        this.dominio = dominio;
+    }
+
+    public String getStato() {
+        return stato;
+    }
+
+    public void setStato(String stato) {
+        this.stato = stato;
+    }
+
+    public String getCommessa() {
+        return commessa;
+    }
+
+    public void setCommessa(String commessa) {
+        this.commessa = commessa;
+    }
+
+    public String getSede() {
+        return sede;
+    }
+
+    public void setSede(String sede) {
+        this.sede = sede;
+    }
+
+    public Date getDataUltimoAggiornamento() {
+        return dataUltimoAggiornamento;
+    }
+
+    public void setDataUltimoAggiornamento(Date dataUltimoAggiornamento) {
+        this.dataUltimoAggiornamento = dataUltimoAggiornamento;
+    }
+
+    public Date getOraUltimoAggiornamento() {
+        return oraUltimoAggiornamento;
+    }
+
+    public void setOraUltimoAggiornamento(Date oraUltimoAggiornamento) {
+        this.oraUltimoAggiornamento = oraUltimoAggiornamento;
+    }
+
+    public Integer getGiorniSpento() {
+        return giorniSpento;
+    }
+
+    public void setGiorniSpento(Integer giorniSpento) {
+        this.giorniSpento = giorniSpento;
+    }
+
+    public String getVersionePcdc() {
+        return versionePcdc;
+    }
+
+    public void setVersionePcdc(String versionePcdc) {
+        this.versionePcdc = versionePcdc;
+    }
 }
