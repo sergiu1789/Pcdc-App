@@ -43,7 +43,7 @@ public class Pcdc {
     @Column
     private Date dataUltimoAggiornamento;
     @Column
-    private LocalTime oraUltimoAggiornamento;
+    private Date oraUltimoAggiornamento;
     @Column
     private Integer giorniSpento;
     @Column
